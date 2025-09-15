@@ -1,7 +1,25 @@
+# Vim/Neovim files
 tags
-test.sh
-.luarc.json
-nvim
-
 spell/
+.luarc.json
+
+# Plugin lockfile
 lazy-lock.json
+
+# Test files
+test.sh
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
